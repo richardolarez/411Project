@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<project xmlns:ns1="http://www.plcopen.org/xml/tc6.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.plcopen.org/xml/tc6_0201">
+<project xmlns:ns1="http://www.plcopen.org/xml/tc6_0201" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.plcopen.org/xml/tc6_0201">
   <fileHeader companyName="Unknown" productName="Unnamed" productVersion="1" creationDateTime="2023-10-18T21:45:43"/>
-  <contentHeader name="Unnamed" modificationDateTime="2023-10-18T21:58:28">
+  <contentHeader name="Unnamed" modificationDateTime="2023-10-20T20:56:22">
     <coordinateInfo>
       <fbd>
         <scaling x="10" y="10"/>
@@ -30,7 +30,7 @@
                 <BOOL/>
               </type>
             </variable>
-            <variable name="filter_status" address="%IX0.2">
+            <variable name="change_filter" address="%IX0.2">
               <type>
                 <BOOL/>
               </type>
@@ -40,12 +40,12 @@
                 <INT/>
               </type>
             </variable>
-            <variable name="Filter_Input" address="%IX0.4">
+            <variable name="Filter_Input_water_level" address="%IX0.4">
               <type>
                 <INT/>
               </type>
             </variable>
-            <variable name="Filter_Output" address="%IX0.5">
+            <variable name="Filter_Output_water_level" address="%IX0.5">
               <type>
                 <INT/>
               </type>
@@ -55,32 +55,32 @@
                 <INT/>
               </type>
             </variable>
-            <variable name="Graywater_Pump" address="%QW0.0">
+            <variable name="Graywater_Pump_RPM" address="%QW0.0">
               <type>
                 <INT/>
               </type>
             </variable>
-            <variable name="Filterwater_Pump" address="%QW0.1">
+            <variable name="Filterwater_Pump_RPM" address="%QW0.1">
               <type>
                 <INT/>
               </type>
             </variable>
-            <variable name="Cleanwater_Pump" address="%QW0.2">
+            <variable name="Cleanwater_Pump_RPM" address="%QW0.2">
               <type>
                 <INT/>
               </type>
             </variable>
-            <variable name="Graywater_Value" address="%QW0.3">
+            <variable name="Graywater_Valve" address="%QW0.3">
               <type>
                 <BOOL/>
               </type>
             </variable>
-            <variable name="Filterwater_Value" address="%QW0.4">
+            <variable name="Filterwater_Valve" address="%QW0.4">
               <type>
                 <BOOL/>
               </type>
             </variable>
-            <variable name="Cleanwater_Value" address="%QW0.5">
+            <variable name="Cleanwater_Valve" address="%QW0.5">
               <type>
                 <BOOL/>
               </type>
