@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <project xmlns:ns1="http://www.plcopen.org/xml/tc6_0201" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.plcopen.org/xml/tc6_0201">
   <fileHeader companyName="Unknown" productName="Unnamed" productVersion="1" creationDateTime="2023-10-18T21:45:43"/>
-  <contentHeader name="Unnamed" modificationDateTime="2023-10-21T23:16:36">
+  <contentHeader name="Unnamed" modificationDateTime="2023-11-25T00:55:41">
     <coordinateInfo>
       <fbd>
         <scaling x="10" y="10"/>
@@ -20,75 +20,79 @@
       <pou name="program0" pouType="program">
         <interface>
           <localVars>
-            <variable name="Emrg_Stop">
+            <variable name="Emrg_Stop" address="%IX0.0">
               <type>
                 <BOOL/>
               </type>
             </variable>
-            <variable name="Output_switch">
+            <variable name="Output_switch" address="%IX0.1">
               <type>
                 <BOOL/>
               </type>
             </variable>
-            <variable name="change_filter">
-              <type>
-                <BOOL/>
-              </type>
-            </variable>
-            <variable name="Gray_water_level">
-              <type>
-                <INT/>
-              </type>
-            </variable>
-            <variable name="Filter_Input_water_level">
-              <type>
-                <INT/>
-              </type>
-            </variable>
-            <variable name="Filter_Output_water_level">
-              <type>
-                <INT/>
-              </type>
-            </variable>
-            <variable name="Clean_water_level">
+            <variable name="Gray_water_level" address="%IW0.2">
               <type>
                 <INT/>
               </type>
               <initialValue>
-                <simpleValue value="0"/>
+                <simpleValue value="35"/>
               </initialValue>
             </variable>
-            <variable name="Graywater_Pump_RPM">
+            <variable name="Filter_Input_water_level" address="%IW0.3">
+              <type>
+                <INT/>
+              </type>
+              <initialValue>
+                <simpleValue value="35"/>
+              </initialValue>
+            </variable>
+            <variable name="Filter_Output_water_level" address="%IW0.4">
+              <type>
+                <INT/>
+              </type>
+              <initialValue>
+                <simpleValue value="10"/>
+              </initialValue>
+            </variable>
+            <variable name="Clean_water_level" address="%IW0.5">
+              <type>
+                <INT/>
+              </type>
+              <initialValue>
+                <simpleValue value="3"/>
+              </initialValue>
+            </variable>
+            <variable name="Graywater_Pump_RPM" address="%IW0.6">
               <type>
                 <INT/>
               </type>
             </variable>
-            <variable name="Filterwater_Pump_RPM">
+            <variable name="Filterwater_Pump_RPM" address="%IW0.7">
               <type>
                 <INT/>
               </type>
             </variable>
-            <variable name="Cleanwater_Pump_RPM">
+            <variable name="Cleanwater_Pump_RPM" address="%IW0.8">
               <type>
                 <INT/>
               </type>
             </variable>
-            <variable name="Filterwater_Valve">
+            <variable name="Filterwater_Valve" address="%QX0.0">
               <type>
                 <BOOL/>
               </type>
             </variable>
-            <variable name="Cleanwater_Valve">
+            <variable name="Cleanwater_Valve" address="%QX0.1">
               <type>
                 <BOOL/>
               </type>
             </variable>
-            <variable name="Filter_inflow_Valve">
+            <variable name="Filter_inflow_Valve" address="%QX0.2">
               <type>
                 <BOOL/>
               </type>
             </variable>
-            <variable name="Min_Water_Level">
+            <variable name="Min_Water_Level" address="%MW0.0">
               <type>
                 <INT/>
               </type>
@@ -96,7 +100,7 @@
                 <simpleValue value="5"/>
               </initialValue>
             </variable>
-            <variable name="Max_Water_Level">
+            <variable name="Max_Water_Level" address="%MW0.1">
               <type>
                 <INT/>
               </type>
@@ -104,7 +108,7 @@
                 <simpleValue value="25"/>
               </initialValue>
             </variable>
-            <variable name="Max_pump_speed">
+            <variable name="Max_pump_speed" address="%MW1.0">
               <type>
                 <INT/>
               </type>
@@ -112,7 +116,7 @@
                 <simpleValue value="2000"/>
               </initialValue>
             </variable>
-            <variable name="Min_pump_speed">
+            <variable name="Min_pump_speed" address="%MW1.1">
               <type>
                 <INT/>
               </type>
@@ -120,17 +124,17 @@
                 <simpleValue value="0"/>
               </initialValue>
             </variable>
-            <variable name="Mem1">
+            <variable name="Mem1" address="%MW2.0">
               <type>
                 <BOOL/>
               </type>
             </variable>
-            <variable name="Mem2">
+            <variable name="Mem2" address="%MW2.1">
               <type>
                 <BOOL/>
               </type>
             </variable>
-            <variable name="Mem3">
+            <variable name="Mem3" address="%MW2.2">
               <type>
                 <BOOL/>
               </type>
