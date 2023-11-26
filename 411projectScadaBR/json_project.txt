@@ -266,8 +266,36 @@
                "whenOffLabel":"ON",
                "whenOnLabel":"OFF",
                "width":0,
-               "x":619,
-               "y":17
+               "x":615,
+               "y":23
+            },
+            {
+               "type":"BINARY_GRAPHIC",
+               "dataPointXid":"DP_382271",
+               "imageSet":"Leds24",
+               "bkgdColorOverride":"",
+               "displayControls":false,
+               "displayText":true,
+               "nameOverride":"",
+               "oneImageIndex":7,
+               "settableOverride":false,
+               "x":482,
+               "y":49,
+               "zeroImageIndex":6
+            },
+            {
+               "type":"BINARY_GRAPHIC",
+               "dataPointXid":"DP_889861",
+               "imageSet":"Leds24",
+               "bkgdColorOverride":"",
+               "displayControls":false,
+               "displayText":true,
+               "nameOverride":"",
+               "oneImageIndex":4,
+               "settableOverride":false,
+               "x":617,
+               "y":51,
+               "zeroImageIndex":3
             }
          ],
          "sharingUsers":[
@@ -542,7 +570,7 @@
             "bit":0,
             "charset":"ASCII",
             "multiplier":1.0,
-            "offset":2,
+            "offset":1,
             "registerCount":0,
             "settableOverride":false,
             "slaveId":1,
@@ -582,7 +610,7 @@
             "bit":0,
             "charset":"ASCII",
             "multiplier":1.0,
-            "offset":3,
+            "offset":2,
             "registerCount":0,
             "settableOverride":false,
             "slaveId":1,
@@ -622,7 +650,7 @@
             "bit":0,
             "charset":"ASCII",
             "multiplier":1.0,
-            "offset":4,
+            "offset":3,
             "registerCount":0,
             "settableOverride":false,
             "slaveId":1,
@@ -657,12 +685,12 @@
          "purgeType":"YEARS",
          "pointLocator":{
             "range":"INPUT_REGISTER",
-            "modbusDataType":"TWO_BYTE_INT_UNSIGNED",
+            "modbusDataType":"TWO_BYTE_INT_SIGNED",
             "additive":0.0,
             "bit":0,
             "charset":"ASCII",
             "multiplier":1.0,
-            "offset":5,
+            "offset":4,
             "registerCount":0,
             "settableOverride":false,
             "slaveId":1,
@@ -702,7 +730,7 @@
             "bit":0,
             "charset":"ASCII",
             "multiplier":1.0,
-            "offset":6,
+            "offset":5,
             "registerCount":0,
             "settableOverride":false,
             "slaveId":1,
@@ -742,7 +770,7 @@
             "bit":0,
             "charset":"ASCII",
             "multiplier":1.0,
-            "offset":7,
+            "offset":6,
             "registerCount":0,
             "settableOverride":false,
             "slaveId":1,
@@ -782,7 +810,7 @@
             "bit":0,
             "charset":"ASCII",
             "multiplier":1.0,
-            "offset":2,
+            "offset":5,
             "registerCount":0,
             "settableOverride":false,
             "slaveId":1,
@@ -822,7 +850,7 @@
             "bit":0,
             "charset":"ASCII",
             "multiplier":1.0,
-            "offset":0,
+            "offset":3,
             "registerCount":0,
             "settableOverride":true,
             "slaveId":1,
@@ -862,7 +890,7 @@
             "bit":0,
             "charset":"ASCII",
             "multiplier":1.0,
-            "offset":1,
+            "offset":4,
             "registerCount":0,
             "settableOverride":true,
             "slaveId":1,
@@ -902,7 +930,7 @@
             "bit":0,
             "charset":"ASCII",
             "multiplier":1.0,
-            "offset":3,
+            "offset":0,
             "registerCount":0,
             "settableOverride":true,
             "slaveId":1,
@@ -942,7 +970,7 @@
             "bit":0,
             "charset":"ASCII",
             "multiplier":1.0,
-            "offset":4,
+            "offset":1,
             "registerCount":0,
             "settableOverride":true,
             "slaveId":1,
@@ -982,7 +1010,7 @@
             "bit":0,
             "charset":"ASCII",
             "multiplier":1.0,
-            "offset":8,
+            "offset":7,
             "registerCount":0,
             "settableOverride":false,
             "slaveId":1,
@@ -1041,6 +1069,9 @@
          "xid":"WL_917480",
          "user":"admin",
          "dataPoints":[
+            "DP_393613",
+            "DP_207599",
+            "DP_277552"
          ],
          "sharingUsers":[
          ],
@@ -1219,8 +1250,23 @@
       },
       {
          "pointXid":"DP_285082",
+         "timestamp":1700976098244,
+         "value":"35.0"
+      },
+      {
+         "pointXid":"DP_285082",
          "timestamp":1700801450972,
          "value":"0.0"
+      },
+      {
+         "pointXid":"DP_266345",
+         "timestamp":1700976158244,
+         "value":"35.0"
+      },
+      {
+         "pointXid":"DP_266345",
+         "timestamp":1700976098244,
+         "value":"10.0"
       },
       {
          "pointXid":"DP_266345",
@@ -1229,8 +1275,23 @@
       },
       {
          "pointXid":"DP_292812",
+         "timestamp":1700976188244,
+         "value":"10.0"
+      },
+      {
+         "pointXid":"DP_292812",
+         "timestamp":1700976098244,
+         "value":"3.0"
+      },
+      {
+         "pointXid":"DP_292812",
          "timestamp":1700801762645,
          "value":"0.0"
+      },
+      {
+         "pointXid":"DP_678157",
+         "timestamp":1700976218244,
+         "value":"3.0"
       },
       {
          "pointXid":"DP_678157",
@@ -1239,8 +1300,88 @@
       },
       {
          "pointXid":"DP_733777",
+         "timestamp":1700977699072,
+         "value":"0.0"
+      },
+      {
+         "pointXid":"DP_733777",
+         "timestamp":1700977369072,
+         "value":"2000.0"
+      },
+      {
+         "pointXid":"DP_733777",
+         "timestamp":1700977339072,
+         "value":"0.0"
+      },
+      {
+         "pointXid":"DP_733777",
+         "timestamp":1700977219072,
+         "value":"2000.0"
+      },
+      {
+         "pointXid":"DP_733777",
+         "timestamp":1700977129072,
+         "value":"0.0"
+      },
+      {
+         "pointXid":"DP_733777",
+         "timestamp":1700976679072,
+         "value":"2000.0"
+      },
+      {
+         "pointXid":"DP_733777",
+         "timestamp":1700976649072,
+         "value":"0.0"
+      },
+      {
+         "pointXid":"DP_733777",
+         "timestamp":1700976589072,
+         "value":"2000.0"
+      },
+      {
+         "pointXid":"DP_733777",
          "timestamp":1700898143078,
          "value":"0.0"
+      },
+      {
+         "pointXid":"DP_587729",
+         "timestamp":1700977699072,
+         "value":"0.0"
+      },
+      {
+         "pointXid":"DP_587729",
+         "timestamp":1700977369072,
+         "value":"2000.0"
+      },
+      {
+         "pointXid":"DP_587729",
+         "timestamp":1700977339072,
+         "value":"0.0"
+      },
+      {
+         "pointXid":"DP_587729",
+         "timestamp":1700977219072,
+         "value":"2000.0"
+      },
+      {
+         "pointXid":"DP_587729",
+         "timestamp":1700977129072,
+         "value":"0.0"
+      },
+      {
+         "pointXid":"DP_587729",
+         "timestamp":1700976679072,
+         "value":"2000.0"
+      },
+      {
+         "pointXid":"DP_587729",
+         "timestamp":1700976649072,
+         "value":"0.0"
+      },
+      {
+         "pointXid":"DP_587729",
+         "timestamp":1700976589072,
+         "value":"2000.0"
       },
       {
          "pointXid":"DP_587729",
@@ -1249,8 +1390,38 @@
       },
       {
          "pointXid":"DP_277552",
+         "timestamp":1700977699072,
+         "value":"false"
+      },
+      {
+         "pointXid":"DP_277552",
+         "timestamp":1700977369072,
+         "value":"true"
+      },
+      {
+         "pointXid":"DP_277552",
          "timestamp":1700898143078,
          "value":"false"
+      },
+      {
+         "pointXid":"DP_393613",
+         "timestamp":1700977699072,
+         "value":"false"
+      },
+      {
+         "pointXid":"DP_393613",
+         "timestamp":1700977369072,
+         "value":"true"
+      },
+      {
+         "pointXid":"DP_393613",
+         "timestamp":1700976679072,
+         "value":"false"
+      },
+      {
+         "pointXid":"DP_393613",
+         "timestamp":1700976649072,
+         "value":"true"
       },
       {
          "pointXid":"DP_393613",
@@ -1259,8 +1430,78 @@
       },
       {
          "pointXid":"DP_207599",
+         "timestamp":1700977549072,
+         "value":"false"
+      },
+      {
+         "pointXid":"DP_207599",
+         "timestamp":1700977369072,
+         "value":"true"
+      },
+      {
+         "pointXid":"DP_207599",
+         "timestamp":1700977339072,
+         "value":"false"
+      },
+      {
+         "pointXid":"DP_207599",
+         "timestamp":1700977219072,
+         "value":"true"
+      },
+      {
+         "pointXid":"DP_207599",
+         "timestamp":1700977129072,
+         "value":"false"
+      },
+      {
+         "pointXid":"DP_207599",
+         "timestamp":1700976589072,
+         "value":"true"
+      },
+      {
+         "pointXid":"DP_207599",
          "timestamp":1700898143078,
          "value":"false"
+      },
+      {
+         "pointXid":"DP_382271",
+         "timestamp":1700977749875,
+         "value":"false"
+      },
+      {
+         "pointXid":"DP_382271",
+         "timestamp":1700977676237,
+         "value":"true"
+      },
+      {
+         "pointXid":"DP_382271",
+         "timestamp":1700976661094,
+         "value":"false"
+      },
+      {
+         "pointXid":"DP_382271",
+         "timestamp":1700976638594,
+         "value":"true"
+      },
+      {
+         "pointXid":"DP_382271",
+         "timestamp":1700976439072,
+         "value":"false"
+      },
+      {
+         "pointXid":"DP_382271",
+         "timestamp":1700976420131,
+         "value":"true"
+      },
+      {
+         "pointXid":"DP_382271",
+         "timestamp":1700975442659,
+         "value":"false"
+      },
+      {
+         "pointXid":"DP_382271",
+         "timestamp":1700975440676,
+         "value":"true"
       },
       {
          "pointXid":"DP_382271",
@@ -1296,6 +1537,96 @@
          "pointXid":"DP_382271",
          "timestamp":1700898143078,
          "value":"false"
+      },
+      {
+         "pointXid":"DP_889861",
+         "timestamp":1700977750456,
+         "value":"false"
+      },
+      {
+         "pointXid":"DP_889861",
+         "timestamp":1700977368327,
+         "value":"true"
+      },
+      {
+         "pointXid":"DP_889861",
+         "timestamp":1700977367603,
+         "value":"false"
+      },
+      {
+         "pointXid":"DP_889861",
+         "timestamp":1700977345255,
+         "value":"true"
+      },
+      {
+         "pointXid":"DP_889861",
+         "timestamp":1700977339072,
+         "value":"false"
+      },
+      {
+         "pointXid":"DP_889861",
+         "timestamp":1700977209737,
+         "value":"true"
+      },
+      {
+         "pointXid":"DP_889861",
+         "timestamp":1700977129072,
+         "value":"false"
+      },
+      {
+         "pointXid":"DP_889861",
+         "timestamp":1700976580049,
+         "value":"true"
+      },
+      {
+         "pointXid":"DP_889861",
+         "timestamp":1700976409072,
+         "value":"false"
+      },
+      {
+         "pointXid":"DP_889861",
+         "timestamp":1700976390460,
+         "value":"true"
+      },
+      {
+         "pointXid":"DP_889861",
+         "timestamp":1700976289072,
+         "value":"false"
+      },
+      {
+         "pointXid":"DP_889861",
+         "timestamp":1700976266459,
+         "value":"true"
+      },
+      {
+         "pointXid":"DP_889861",
+         "timestamp":1700976098244,
+         "value":"false"
+      },
+      {
+         "pointXid":"DP_889861",
+         "timestamp":1700975616945,
+         "value":"true"
+      },
+      {
+         "pointXid":"DP_889861",
+         "timestamp":1700975616140,
+         "value":"false"
+      },
+      {
+         "pointXid":"DP_889861",
+         "timestamp":1700975615082,
+         "value":"true"
+      },
+      {
+         "pointXid":"DP_889861",
+         "timestamp":1700975613494,
+         "value":"false"
+      },
+      {
+         "pointXid":"DP_889861",
+         "timestamp":1700975445909,
+         "value":"true"
       },
       {
          "pointXid":"DP_889861",
